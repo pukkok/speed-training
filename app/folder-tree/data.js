@@ -15,6 +15,10 @@ export const treeData = [
           { id: 5, name: 'icons', children: [
             { id: 6, name: 'plus.jsx'},
             { id: 7, name: 'minus.jsx'},
+            { id: 11, name: 'chevron', children: [
+              {id: 12, name: 'left.jsx'},
+              {id: 13, name: 'right.jsx'},
+            ]}
           ]},
           { id: 8, name: 'Header.jsx' },
           { id: 9, name: 'Sidebar.jsx' }
